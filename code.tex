@@ -65,4 +65,74 @@ y+(\lambda-1)z& = & \lambda \\
 
 \right\}
 
+
+//inversa de una matriz por adjuntos
+
+$$A^{-1} =\frac{1}{det(A)}·(AdjA)^t=\frac{1}{1} · 
+\begin{pmatrix}
+\begin{vmatrix} 
+1 & 1\\
+0 & 1\\
+\end{vmatrix}&&
+
+-\begin{vmatrix} 
+0 & 1\\
+0 & 1\\
+\end{vmatrix}&&
+
+\begin{vmatrix} 
+0 & 1\\
+0 & 0\\
+\end{vmatrix}&&
+\\
+
+
+-\begin{vmatrix} 
+1 & 1\\
+0 & 1\\
+\end{vmatrix}&&
+
+\begin{vmatrix} 
+1 & 1\\
+0 & 1\\
+\end{vmatrix}&&
+
+-\begin{vmatrix} 
+1 & 1\\
+0 & 0\\
+\end{vmatrix}&&
+\\
+
+
+\begin{vmatrix} 
+1 & 1\\
+1 & 1\\
+\end{vmatrix}&&
+
+-\begin{vmatrix} 
+1 & 1\\
+0 & 1\\
+\end{vmatrix}&&
+
+\begin{vmatrix} 
+1 & 1\\
+0 & 0\\
+\end{vmatrix}&&
+\\
+
+\end{pmatrix}^t
+
+=
+
+\begin{pmatrix}
+1&&-1&&0\\
+0&&1&&-1\\
+0&&0&&1
+\end{pmatrix}
+$$
+
+
+
+
+
 $$
